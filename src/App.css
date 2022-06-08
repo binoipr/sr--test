@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:&display=swap");
+
+/* -------------general styling-------------- */
+
+* {
+  font-family: "Montserrat", sans-serif;  
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+/* --------home -button:hover styling-------- */
+
+#home-button {
+  width: 103px;
+  font-size: 15px;
+  padding: 5px;
+  background-color: #d47070;
+  color: #fff;
+  transition: 0.3s;
+}
+
+#home-button:hover {
+  background-color: #db5b5b; 
+  color:#000; 
+}
+
+
+/* --------nav icon:hover color change-------- */
+.fa-heart:hover {
+    color: red;
+}
+
+.fa-shopping-bag:hover {
+    color: red
+}
+
+
+
+
